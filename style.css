@@ -1,0 +1,24 @@
+/* Reset defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full-screen centering */
+body {
+  height: 100vh;                /* use full screen height */
+  display: flex;                /* enable flexbox */
+  justify-content: center;      /* center horizontally */
+  align-items: center;          /* center vertically */
+  background-color: #000;       /* optional background color */
+}
+
+/* Image style */
+.banner {
+  max-width: 90%;               /* keep responsive */
+  height: auto;
+  display: block;
+  border-radius: 12px;          /* optional rounded corners */
+  box-shadow: 0 0 20px rgba(0,0,0,0.3); /* optional shadow */
+}
